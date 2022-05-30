@@ -1,0 +1,29 @@
+
+*{
+    box-sizing: border-box;
+    margin:65;
+    padding: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: brown;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#circle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height: 200px;
+    width: 200px;
+    background: peachpuff;
+    border-radius: 100px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+
